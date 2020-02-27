@@ -1,0 +1,192 @@
+/* Navbar CSS */
+.navbar-brand {
+    background-color: #bda0f1;
+    color: #ffffff;
+    height: 30px;
+    /* text-align: center; */
+    font-size: 12pt;
+    padding: 0rem 1rem;
+    text-decoration: none;
+}
+
+.custom-border {
+    border-bottom: 5px solid rgb(217, 188, 250);
+}
+
+.nav-link:hover {
+    background-color: #bda0f1;
+    color: white;
+}
+
+#about {
+    border-right: 1px solid #777777;
+    color: #ffffff;
+}
+
+#portfolio {
+    border-right: 1px solid #777777;
+    color: #ffffff;
+}
+
+#contact {
+    color: white;
+}
+
+.container {
+    background-color: white;
+    height: 560px;
+}
+
+/* Parallax Scrolling CSS */
+.container {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: solid red ; */
+    margin: 0 auto;
+    background-color: white;
+    font-size: 24px;
+    padding: 25px;
+}
+
+.parallax1 {
+    background: url('../images/purplecode.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: solid hotpink ; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.parallax2 {
+    background: url('../images/purplecode.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: solid hotpink ; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.parallax3 {
+    background: url('../images/fullpasswordgenerator.png');
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: solid hotpink ; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.parallax4 {
+    background: url('../images/fullcodequiz.png');
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: solid hotpink ; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.parallax5 {
+    background: url('../images/fulldayplanner.png');
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: solid hotpink ; */
+    height: 100vh;
+    width: 100vw;
+}
+
+/* About Section */
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    float: center;
+    align-items: center;
+    align-self: center;
+}
+
+p {
+    font-size: 12pt;
+}
+
+#last {
+    margin-left: 15px;
+}
+
+form {
+    float: center;
+}
+
+/* Portfolio */
+#pw {
+    height: 560px;
+}
+
+/* Social Media Icons */
+.wrapper {
+    float: right;
+}
+
+.githubIcon {
+    color: #bda0f1;
+    text-align: right;
+}
+
+.linkedInIcon {
+    color: #bda0f1;
+    text-align: right;
+}
+
+.emailIcon {
+    color: #ffffff;
+    text-align: right;
+}
+
+.resumeIcon {
+    color: #ffffff;
+    text-align: right;
+}
+
+a:hover {
+    color: #625d66;
+}
+
+form, .btn {
+    color: #4aaaa5;
+}
+
+form, .btn:hover {
+    color: #777777;
+}
+
+/* Platforms & Languages */
+#apps {
+    height: 960px;
+}
+
+h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    float: center;
+}
+
+h3 {
+    font-size: 50pt;
+}
+
+/* Footer */
+footer {
+    border-top: 2px solid rgb(217, 188, 250);
+}
+
+.custom-background { 
+    background-color: #bda0f1;
+}
+
+.custom-footerborder {
+    border-top: 5px solid #bda0f1;
+}
