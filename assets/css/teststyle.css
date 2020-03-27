@@ -96,7 +96,7 @@
 }
 
 .parallax6 {
-    background: url('../images/burger.png');
+    background: url('../images/theHikersGuide.png');
     background-size: cover;
     background-attachment: fixed;
     /* border: solid hotpink ; */
@@ -105,6 +105,15 @@
 }
 
 .parallax7 {
+    background: url('../images/burger.png');
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: solid hotpink ; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.parallax8 {
     background: url('../images/YumTrucks.png');
     background-size: cover;
     background-attachment: fixed;
@@ -138,9 +147,24 @@ form {
 }
 
 /* Portfolio */
+#rowTwo {
+    margin: 15px;
+}
+
 #firstThree {
     height: 560px;
 }
+
+#secondThree {
+    height: 560px;
+}
+
+.card-img {
+    padding: 5px;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
 
 /* Social Media Icons */
 .wrapper {
@@ -197,7 +221,7 @@ h3 {
 }
 
 .scrollUp {
-    margin-top: 140px;
+    margin-top: 130px;
     margin-left: 150px;
     float: right;
     border: none;
