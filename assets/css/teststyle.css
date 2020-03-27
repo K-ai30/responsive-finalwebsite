@@ -33,7 +33,7 @@
 }
 
 .container {
-    background-color: white;
+    background-color: #98C0FC;
     height: 560px;
 }
 
@@ -95,6 +95,24 @@
     width: 100vw;
 }
 
+.parallax6 {
+    background: url('../images/burger.png');
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: solid hotpink ; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.parallax7 {
+    background: url('../images/YumTrucks.png');
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: solid hotpink ; */
+    height: 100vh;
+    width: 100vw;
+}
+
 /* About Section */
 h1 {
     color: white;
@@ -120,7 +138,7 @@ form {
 }
 
 /* Portfolio */
-#pw {
+#firstThree {
     height: 560px;
 }
 
@@ -176,6 +194,15 @@ h2 {
 
 h3 {
     font-size: 50pt;
+}
+
+.scrollUp {
+    margin-top: 140px;
+    margin-left: 150px;
+    float: right;
+    border: none;
+    color: #bda0f1;
+    font-size: 30px;
 }
 
 /* Footer */
