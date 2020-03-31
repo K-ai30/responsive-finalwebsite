@@ -220,6 +220,12 @@ h3 {
     font-size: 50pt;
 }
 
+.icon {
+    font-size: 35pt;
+    display: inline-block;
+    padding: 15px;
+}
+
 .scrollUp {
     margin-top: 130px;
     margin-left: 150px;
@@ -227,6 +233,31 @@ h3 {
     border: none;
     color: #bda0f1;
     font-size: 30px;
+}
+
+li.education {
+    list-style-type: none;
+    color: #bda0f1;
+    font-size: 12pt;
+}
+
+/* Contact Page */
+.custom-button {
+    background-color: #bda0f1;
+}
+
+#contact {
+    padding: 10px;
+}
+
+#contacting {
+    background-color: #bda0f1;
+    border-radius: 2px;
+    font-size: 25pt;
+}
+
+#last {
+    margin-bottom: 90px;
 }
 
 /* Footer */
