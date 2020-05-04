@@ -47,4 +47,4 @@ The original contributor to this project is the following full stack developer:
 
 As such, for major changes, please open an issue first to discuss what you would like to change. Changes will not be made without the consent of the author of this application.
 
-Copyright (c) [2019] [Alia Kyle Perry]
+Copyright (c) [2020] [Alia Kyle Perry]
