@@ -1,15 +1,24 @@
 # Responsive Final Website
-Updated responsive final website with portfolio and social media
+
+Updated responsive final website with portfolio, social media, CSS, and Bootstrap
 
 ### Description
 
-CSS and Bootstrap
-
-This project was created using HTML5, CSS3, and Bootstrap 4 to design a mobile-first portfolio site.  I modeled this site after my original portfolio site.  The challenges with this project were in adapting the formatting and customization through bootstrap elements rather than an external style sheet.  Ultimately, the benefits of using external style sheets (organization, specific targeting, and visibility) helped resolve issues regarding which elements were being impacted with each line of code.
+This project was created to design a more mobile-first portfolio site that captures a more creative-side compared to the original portfolio sites it was modeled after.  The challenges with this project were in adapting the formatting and customization through bootstrap elements rather than an external style sheet.  Ultimately, the benefits of using external style sheets (organization, specific targeting, and visibility) helped resolve issues regarding which elements were being impacted with each line of code.
 
 ### Installation
 
-Clone to your local machine and open in your favorite code editor to check it out! Or, visit the deployed version at: 
+To run the application locally, you will need to clone the repository to your local machine and open in your favorite code editor to check it out!
+
+HTTPS:
+
+`$ git clone https://github.com/K-ai30/responsive-finalwebsite.git`
+
+SSH:
+
+`$ git clone git@github.com:K-ai30/responsive-finalwebsite.git`
+
+Or, visit the deployed version at:
 
 ### Link
 
