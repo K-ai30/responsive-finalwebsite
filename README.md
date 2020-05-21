@@ -51,10 +51,10 @@ I started building this website to serve as my portfolio site to showcase my cod
 
 ### Author
 
-- Alia Kyle Perry (Full Stack Developer)
+- Alia Kyle Perry (Full Stack Developer) - [Check out my repositories!](https://github.com/K-ai30)
 
 ### Contributing
 
-As such, for major changes, please open an issue first to discuss what you would like to change. Changes will not be made without the consent of the author of this application.
+For major changes, please open an issue first to discuss what you would like to change. Changes will not be made without the consent of the author of this application.
 
 Copyright (c) [2020] [Alia Kyle Perry]
