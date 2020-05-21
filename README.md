@@ -4,7 +4,7 @@ Updated responsive final website with portfolio, social media, CSS, and Bootstra
 
 ### Description
 
-This project was created to design a more mobile-first portfolio site that captures a more creative-side compared to the original portfolio sites it was modeled after.  The challenges with this project were in adapting the formatting and customization through bootstrap elements rather than an external style sheet.  Ultimately, the benefits of using external style sheets (organization, specific targeting, and visibility) helped resolve issues regarding which elements were being impacted with each line of code.
+This project was created to design a more mobile-first portfolio site that captures a more creative-side compared to the original portfolio sites it was modeled after.  The challenges with this project were in adapting the formatting and customization through bootstrap elements and creating a dynamic and functional layout.  Ultimately, the benefits of using external style sheets (organization, specific targeting, and visibility) helped resolve issues regarding which elements were being impacted with each line of code.
 
 ### Installation
 
