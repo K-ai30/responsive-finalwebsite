@@ -204,6 +204,26 @@ form, .btn:hover {
 }
 
 /* Platforms & Languages */
+#skills {
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+}
+
+#folio {
+    text-align: center;
+}
+
+#credentials {
+    text-align: center;
+}
+
+#contactForm {
+    text-align: center;
+}
+
 #apps {
     height: 960px;
 }
@@ -244,10 +264,6 @@ li.education {
 /* Contact Page */
 .custom-button {
     background-color: #bda0f1;
-}
-
-#contact {
-    padding: 10px;
 }
 
 #contacting {
