@@ -28,9 +28,15 @@
     color: #ffffff;
 }
 
+#technicalbtn {
+    border-right: 1px solid #777777;
+    color: white;
+}
+
 #contactbtn {
     color: white;
 }
+
 
 .container {
     background-color: #98C0FC;
@@ -69,7 +75,7 @@
 }
 
 .parallax3 {
-    background: url('../images/fullpasswordgenerator.png');
+    background: url('../images/datatrak.png');
     background-size: cover;
     background-attachment: fixed;
     /* border: solid hotpink ; */
@@ -78,7 +84,7 @@
 }
 
 .parallax4 {
-    background: url('../images/fullcodequiz.png');
+    background: url('../images/burger.png');
     background-size: cover;
     background-attachment: fixed;
     /* border: solid hotpink ; */
@@ -87,7 +93,7 @@
 }
 
 .parallax5 {
-    background: url('../images/fulldayplanner.png');
+    background: url('../images/empdirectory.png');
     background-size: cover;
     background-attachment: fixed;
     /* border: solid hotpink ; */
@@ -96,7 +102,7 @@
 }
 
 .parallax6 {
-    background: url('../images/theHikersGuide.png');
+    background: url('../images/YumTrucks.png');
     background-size: cover;
     background-attachment: fixed;
     /* border: solid hotpink ; */
@@ -114,7 +120,34 @@
 }
 
 .parallax8 {
-    background: url('../images/YumTrucks.png');
+    background: url('../images/theHikersGuide.png');
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: solid hotpink ; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.parallax9 {
+    background: url('../images/fulldayplanner.png');
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: solid hotpink ; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.parallax10 {
+    background: url('../images/fullcodequiz.png');
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: solid hotpink ; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.parallax11 {
+    background: url('../images/fullpasswordgenerator.png');
     background-size: cover;
     background-attachment: fixed;
     /* border: solid hotpink ; */
@@ -247,7 +280,7 @@ h3 {
 }
 
 .scrollUp {
-    margin-top: 130px;
+    margin-top: 105px;
     margin-left: 150px;
     float: right;
     border: none;
