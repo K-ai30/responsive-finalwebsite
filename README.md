@@ -29,6 +29,7 @@ Or, visit the deployed version at:
 * HTML5
 * CSS3
 * Bootstrap 4
+* JavaScript
 * Devicon
 
 ### Features Included:

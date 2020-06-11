@@ -31,7 +31,7 @@
                 <a class="nav-link" id="portfoliobtn" href="#portfolio"><i class="fas fa-laptop-code"></i> Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="technicalbtn" href="#skills"><i class="fas fa-laptop-code"></i> Technical</a>
+              <a class="nav-link" id="technicalbtn" href="#skills"><i class="fas fa-code"></i> Technical</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="contactbtn" href="#contact"><i class="far fa-envelope"></i> Contact</a>
@@ -47,7 +47,7 @@
     </div>
 
     <div id="About" class="container">
-        <div class="row">
+        <div class="row" id="space">
             <div class="col-3">
                 <img id="headshot" src="./assets/images/Headshot1.jpg" width="275" height="350" alt="woman wearing glasses">
             </div>
@@ -70,8 +70,8 @@
               <a class="btn btn-link btn-dark custom-background" href="https://www.linkedin.com/in/alia-kyle-perry-mba" target="_blank" type="button"><i class="fab fa-linkedin"></i> LinkedIn</a>
             <br>
               <a class="btn btn-link btn-dark custom-background" href="https://github.com/K-ai30" target="_blank" type="button"><i class="fab fa-github"></i> GitHub</a>
-
         </div>
+        <button onclick="topFunction()" id="first" class="scrollUp" class="bg-secondary" title="Go to top"><i class="fas fa-arrow-circle-up"></i></button>
     </div>
 
 <!-- </div> -->
@@ -100,6 +100,8 @@
           <div class="card-body">
             <h4 class="card-title text-white" style="text-align:center">DataTrak</h4>
             <h5 class="card-title text-white" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/K-ai30/24-project-3" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
+            <p class="description">DataTrak is a MERN app that stores resident and community data for admins and displays chart rendering.</p>
+            <p class="language"><i class="fas fa-code"></i> MongoDB, Express, Node, React</p>
           </div>
         </div>
 
@@ -110,6 +112,8 @@
           <div class="card-body">
             <h4 class="card-title text-white" style="text-align:center">Google Books Search</h4>
             <h5 class="card-title text-white" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/K-ai30/21-Google-Books-Search" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
+            <p class="description">Google Books Search is a book search app that allows users to search and save books of interest to view later.</p>
+            <p class="language"><i class="fas fa-code"></i> React</p>
           </div>
         </div>
 
@@ -120,6 +124,8 @@
           <div class="card-body">
             <h4 class="card-title text-white" style="text-align:center">Employee Directory</h4>
             <h5 class="card-title text-white" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/K-ai30/employee-directory" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
+            <p class="description">Employee Directory is an app that allows users to search for employees by name, email, or phone number.</p>
+            <p class="language"><i class="fas fa-code"></i> React</p>
           </div>
         </div>
       </div>
@@ -147,6 +153,8 @@
           <div class="card-body">
             <h4 class="card-title text-white" style="text-align:center">YumTrucks</h4>
             <h5 class="card-title text-white" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/K-ai30/YumTrucks" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
+            <p class="description">YumTrucks is a food truck app that stores user data that records food trucks and foodies looking to connect.</p>
+            <p class="language"><i class="fas fa-code"></i> Express, Node, MySQL</p>
           </div>
         </div>
 
@@ -157,16 +165,20 @@
           <div class="card-body">
             <h4 class="card-title text-white" style="text-align:center">Eat-Da-Burger!</h4>
             <h5 class="card-title text-white" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/K-ai30/burger" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
+            <p class="description">Burger is an app that takes in users' input of burgers they'd like to eat and stores them in a database.</p>
+            <p class="language"><i class="fas fa-code"></i> Express, MySQL, Handlebars</p>
           </div>
         </div>
 
         <div class="card mb-3 col-md-4 bg-dark mx-auto" style="width: 18rem;">
           <a class="mx-auto" href="https://aagrosse.github.io/theHikersGuide/" target="_blank">
-            <img src="./assets/images/theHikersGuide.png" class="card-img mx-auto" alt=" ">
+            <img src="./assets/images/theHikersGuideTwo.png" class="card-img mx-auto" alt=" " width="172px">
           </a>
           <div class="card-body">
             <h4 class="card-title text-white" style="text-align:center">theHikersGuide</h4>
             <h5 class="card-title text-white" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/aagrosse/theHikersGuide" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
+            <p class="description">theHikersGuide is a hiking trail app that uses APIs and current location or city to suggest trails with the weather.</p>
+            <p class="language"><i class="fas fa-code"></i> HTML, CSS, JavaScript, jQuery</p>
           </div>
         </div>
       </div>
@@ -194,6 +206,8 @@
           <div class="card-body">
             <h4 class="card-title text-white" style="text-align:center">Day Planner</h4>
             <h5 class="card-title text-white" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/K-ai30/day-planner" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
+            <p class="description">Day planner app uses a Third-Party API (Date and Timestamp) and tracks hourly tasks by saving entries to local storage.</p>
+            <p class="language"><i class="fas fa-code"></i> HTML, CSS, JavaScript, jQuery</p>
           </div>
         </div>
 
@@ -204,6 +218,8 @@
           <div class="card-body">
             <h4 class="card-title text-white" style="text-align:center">Code Quiz</h4>
             <h5 class="card-title text-white" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/K-ai30/code-quiz" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
+            <p class="description">Code Quiz is a coding assessment where the timer is altered based on correct or incorrect responses made by the user.</p>
+            <p class="language"><i class="fas fa-code"></i> HTML, CSS, JavaScript, jQuery</p>
           </div>
         </div>
 
@@ -214,6 +230,8 @@
           <div class="card-body">
             <h4 class="card-title text-white" style="text-align:center">Password Generator</h4>
             <h5 class="card-title text-white" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/K-ai30/password-generator" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
+            <p class="description">Password Generator creates and displays a password based on selected criteria with the option to copy to clipboard.</p>
+            <p class="language"><i class="fas fa-code"></i> HTML, CSS, JavaScript</p>
           </div>
         </div>
       </div>

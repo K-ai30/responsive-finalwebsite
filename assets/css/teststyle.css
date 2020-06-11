@@ -156,6 +156,18 @@
 }
 
 /* About Section */
+#About {
+    padding: 5px;
+}
+
+#space {
+    padding: 5px;
+}
+
+#first {
+    margin-top: 0;
+}
+
 h1 {
     color: white;
     background-color: black;
@@ -193,9 +205,19 @@ form {
 }
 
 .card-img {
-    padding: 5px;
+    padding: 2px;
     margin-top: 15px;
     border: 1px solid black;
+}
+
+.description {
+    color: white;
+    text-align: justify;
+}
+
+.language {
+    color: white;
+    text-align: center;
 }
 
 
@@ -258,7 +280,7 @@ form, .btn:hover {
 }
 
 #apps {
-    height: 960px;
+    height: 805px;
 }
 
 h2 {
@@ -280,7 +302,7 @@ h3 {
 }
 
 .scrollUp {
-    margin-top: 105px;
+    margin-top: 2px;
     margin-left: 150px;
     float: right;
     border: none;
@@ -297,7 +319,7 @@ li.education {
 /* Contact Page */
 #contact {
     padding: 15px;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 
 .custom-button {
@@ -311,7 +333,7 @@ li.education {
 }
 
 #last {
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 
 /* Footer */
